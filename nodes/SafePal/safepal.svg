@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="safePalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C5282;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#safePalGradient)"/>
+  <!-- Shield shape -->
+  <path d="M32 10 L48 18 V32 C48 42.5 41 51 32 54 C23 51 16 42.5 16 32 V18 L32 10Z" 
+        fill="white" 
+        opacity="0.95"/>
+  <!-- Inner shield detail -->
+  <path d="M32 14 L44 20 V32 C44 40.5 38.5 47.5 32 50 C25.5 47.5 20 40.5 20 32 V20 L32 14Z" 
+        fill="url(#safePalGradient)" 
+        opacity="0.9"/>
+  <!-- Checkmark -->
+  <path d="M26 32 L30 36 L38 26" 
+        stroke="white" 
+        stroke-width="3" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        fill="none"/>
+  <!-- S letter for SafePal -->
+  <text x="32" y="46" 
+        font-family="Arial, sans-serif" 
+        font-size="8" 
+        font-weight="bold" 
+        fill="white" 
+        text-anchor="middle">
+    SFP
+  </text>
+</svg>
